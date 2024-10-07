@@ -3,17 +3,17 @@ class Calculator:
         self.symbol = symbol
         self.number = number
     
-    def add(self) -> float:
-        ...
+    def add(self,sk) -> float:
+        return self.number+sk
 
-    def sub(self) -> float:
-        ...
+    def sub(self,sk) -> float:
+        return self.number-sk
 
-    def div(self) -> float:
-        ...
+    def div(self,sk) -> float:
+        return self.number/sk
 
-    def mul(self) -> float:
-        ...
+    def mul(self,sk) -> float:
+        return self.number*sk
         
     def calculate(self) -> float:
         ...
