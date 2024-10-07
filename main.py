@@ -15,5 +15,6 @@ class Calculator:
     def mul(self,sk) -> float:
         return self.number*sk
         
-    def calculate(self) -> float:
-        ...
+    def calculate(self, sk) -> float:
+        if self.symbol == "/":
+            return self.div(sk)
